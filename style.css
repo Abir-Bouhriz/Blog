@@ -1,3 +1,32 @@
-*{
-    box-sizing: border-box;
+body{
+    font-family: 'Montserrat', sans-serif;
 }
+h1,h2,h3,h4,h5{
+    font-weight: 700;
+}
+a{
+    color: #66fcf1;
+}
+input{
+    background-color: #1f2833 !important;
+    color: #fff !important;
+}
+
+
+/*header*/
+.navbar{
+    background-color: #0b0c10;
+    color: #66fcf1 !important;
+}
+
+.navbar-logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.btn-main{
+    background-color: #66fcf1;
+    color: #0b0c10 !important;
+}
+
+
