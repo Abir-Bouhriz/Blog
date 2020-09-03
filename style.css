@@ -3,6 +3,7 @@ body{
 }
 h1,h2,h3,h4,h5{
     font-weight: 700;
+    color: #66fcf1;
 }
 h3{
     font-size: 1.3rem;
@@ -73,3 +74,53 @@ img.rounded-circle{
 }
 
 /*Blog section*/
+.blog-posts{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+}
+
+.blog-post{
+    background-color: #1f2833;
+}
+
+.blog-post img{
+    width: 100%;
+    height: 100%;
+}
+
+.blog-post p{
+    font-size: .9rem;
+}
+
+.blog-post  .col-sm-8{
+    border-left: 3px solid #66fcf1;
+}
+
+.badge{
+    margin-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.badge > a{
+    margin-left: .5rem;
+    padding: .5rem;
+    background-color: #66fcf1;
+    color: #0b0c10;
+}
+
+
+/*aside*/
+.social-links{
+    color: #0b0c10;
+    font-size: 1.5rem;
+}
+.social-links .col-sm-4{
+    border: 2px solid #66fcf1;
+}
+.social-links > a{
+    padding-top: 2rem;
+}
+
+.aside-heading{
+    border-left: 3px solid #66fcf1;
+}
