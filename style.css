@@ -14,9 +14,7 @@ input{
     background-color: #1f2833 !important;
     color: #fff !important;
 }
-img{
-    filter: grayscale(50%) brightness(0.8);
-}
+
 img.rounded-circle{
     filter: none;
     border: 2px solid #66fcf1;
@@ -66,4 +64,12 @@ img.rounded-circle{
     color: #66fcf1;
 }
 
+.hero-post-content img{
+    filter: grayscale(50%) brightness(0.8);
+}
 
+.hero-post-content img.rounded-circle{
+    filter: none;
+}
+
+/*Blog section*/
