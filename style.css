@@ -4,6 +4,9 @@ body{
 h1,h2,h3,h4,h5{
     font-weight: 700;
 }
+h3{
+    font-size: 1.3rem;
+}
 a{
     color: #66fcf1;
 }
@@ -11,7 +14,13 @@ input{
     background-color: #1f2833 !important;
     color: #fff !important;
 }
-
+img{
+    filter: grayscale(50%) brightness(0.8);
+}
+img.rounded-circle{
+    filter: none;
+    border: 2px solid #66fcf1;
+}
 
 /*header*/
 .navbar{
@@ -27,6 +36,34 @@ input{
 .btn-main{
     background-color: #66fcf1;
     color: #0b0c10 !important;
+}
+
+/*hero section*/
+.hero{
+    background-color: #1f2833;
+}
+
+.hero-post{
+    position: relative;
+}
+
+.hero-post-badges{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.hero-post-badges>a{
+    background-color: #0b0c10;
+    color: #66fcf1;
+    display: block;
+    font-size: 0.8rem;
+}
+
+.hero-post-content{
+    position: absolute;
+    bottom: 10px;
+    color: #66fcf1;
 }
 
 
