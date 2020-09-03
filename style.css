@@ -27,7 +27,7 @@ img.rounded-circle{
     color: #66fcf1 !important;
 }
 
-.navbar-logo{
+.navbar-brand, .footer-logo{
     font-weight: 700;
     font-size: 1.5rem;
 }
@@ -81,6 +81,10 @@ img.rounded-circle{
 
 .blog-post{
     background-color: #1f2833;
+}
+
+.blog-post h3{
+    font-size: 1.4rem;
 }
 
 .blog-post img{
@@ -145,4 +149,19 @@ img.rounded-circle{
     padding: .5rem;
     background-color: #66fcf1;
     color: #0b0c10;
+}
+
+
+/*footer*/
+.footer{
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+
+.footer p{
+    font-size: 0.9rem;
+}
+
+.footer input{
+    background-color: #0b0c10 !important;
 }
