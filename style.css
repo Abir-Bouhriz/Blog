@@ -6,10 +6,14 @@ h1,h2,h3,h4,h5{
     color: #66fcf1;
 }
 h3{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
 }
 a{
     color: #66fcf1;
+}
+a:hover{
+    text-decoration: none;
+    color: #fff;
 }
 input{
     background-color: #1f2833 !important;
@@ -164,4 +168,10 @@ img.rounded-circle{
 
 .footer input{
     background-color: #0b0c10 !important;
+}
+
+/*detail page*/
+.content{
+    background-color: #0b0c10;
+    color: #c5c6c7;
 }
