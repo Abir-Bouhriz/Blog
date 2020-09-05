@@ -178,3 +178,162 @@ img.rounded-circle{
     background-color: #0b0c10;
     color: #c5c6c7;
 }
+
+/*contact page*/
+/* background image  */
+#fancy-form{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(img/contact.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   }
+   
+   /* container utility */
+   #fancy-form .container{
+     width: 80%;
+     margin: auto;
+     overflow: hidden;
+   }
+   
+   /* main div */
+   .form-sections{
+     margin-top: 2rem;
+     margin-bottom: 5rem;
+     display: grid;
+     grid-gap: 5rem;
+     grid-template-columns: repeat(2, 1fr);
+   }
+   
+   /* Form-left styling */
+   .Form-left h1{
+     color: #fff;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .Form-left h4{
+     padding: 0;
+     margin: 0;
+     color: rgb(243, 235, 235);
+   }
+   .line{
+     border-bottom: 2px solid #66fcf1;
+     width: 8%;
+     margin-left: 0;
+   }
+   .Form-left span{
+     color: rgb(187, 182, 182);
+     font-weight: bold;
+   }
+   
+   .Form-left hr{
+     width: 25rem;
+     margin-left: 0;
+     border: 1px solid rgb(53, 52, 52);
+   }
+   
+   /* socail media icons */
+   .Form-left a .fa {
+     padding: 8px;
+     font-size: 18px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     /* margin: 5px 2px; */
+     color: rgb(187, 182, 182);
+   }
+   .fa:hover{
+     color: #fff;
+   }
+   
+   
+   
+   /* Form Right Styling */
+   .Form-right h1{
+     color: #fff;
+     padding: 0;
+     margin: 0;
+   }
+   
+   .Form-right form{
+     padding-top: 2rem;
+   }
+   
+   .Form-right form h5{
+     padding: 0;
+     margin: 0;
+     color: rgb(228, 218, 218);
+   }
+   .Form-right form input{
+     padding:0.6rem;
+     width: 27rem;
+     border: none;
+     background-color:rgba(136, 133, 133, 0.3);
+     color:white;
+     border: none;
+     outline:none;
+   }
+   
+   .Form-right form textarea{
+     padding:0.6rem;
+     width: 27rem;
+     border: none;
+     background-color:rgba(136, 133, 133, 0.3);
+     color:white;
+     border: none;
+     outline:none;
+    }
+   
+   .Form-right form button{
+       width: 9rem;
+       background: #0b0c10;
+       padding: 5px;
+       outline: none;
+       border-color: transparent;
+       color: #fff;
+       font-size: 15px;
+       font-weight: bold;
+       letter-spacing: 2px;
+       text-align: center;
+       margin-top: 0.9rem;
+       cursor: pointer;
+    }
+    .Form-right form button:hover{
+        background: #66fcf1;
+        color: #0b0c10;
+    }
+   
+   
+    /* media queries */
+ @media (max-width: 968px){
+   
+ #fancy-form .form-sections{
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+   
+/* background image  */
+#fancy-form{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../imgs/particles.jpg);
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+}
+   
+.form-sections .Form-right{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+   
+/* socail media icons */
+.Form-left a .fa{
+    padding: 8px;
+    font-size: 18px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(187, 182, 182);
+}
+}
