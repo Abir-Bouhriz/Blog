@@ -1,0 +1,65 @@
+/********* Black Blue **********/
+
+.form-submit-button-black_blue{
+
+    cursor: pointer;
+
+    -moz-border-radius:.3em;
+    -webkit-border-radius:.3em;
+    border-radius:.3em;
+
+    padding:6px 18px;
+
+    color: #dadee5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+
+    text-shadow:-1px -1px 0px #000000;
+
+    border:1px solid #000000;
+
+    -moz-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25), 0 1px 2px 0 rgba(0, 0, 0, 0.44);
+    -webkit-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25), 0 1px 2px 0 rgba(0, 0, 0, 0.44);
+    box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25), 0 1px 2px 0 rgba(0, 0, 0, 0.44);
+
+    background: #030303; /* old browsers */
+    background: -moz-linear-gradient(top, #2e2e2e 0%, #030303 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2e2e2e), color-stop(100%,#030303)); /* webkit */
+    background: linear-gradient(top, #2e2e2e 0%, #030303 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#030303',GradientType=0 ); /* ie */
+}
+
+.form-submit-button-black_blue:hover{
+
+    color: #33a0ff !important;
+    border:1px solid #000000 !important;
+    text-shadow:-1px -1px 0px #000000, 0px 0px 3px rgba(51,160,255,0.5);
+    
+    background: #1a1a1a; /* old browsers */
+    background: -moz-linear-gradient(top, #404040 0%, #1a1a1a 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#404040), color-stop(100%,#1a1a1a)); /* webkit */
+    background: linear-gradient(top, #404040 0%, #1a1a1a 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#404040', endColorstr='#1a1a1a',GradientType=0 ); /* ie */
+}
+
+.form-submit-button-black_blue:active{
+
+    color: #33a0ff !important;
+    border:1px solid #000000 !important;
+    text-shadow:-1px -1px 0px #000000;
+    
+    position: relative;
+    top: 1px;
+    
+    -moz-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    -webkit-box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    box-shadow:inset 0 1px 0 0 rgba(255, 255, 255, 0.25);
+    
+    background: #2e2e2e; /* old browsers */
+    background: -moz-linear-gradient(top, #030303 0%, #2e2e2e 100%); /* firefox */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#030303), color-stop(100%,#2e2e2e)); /* webkit */
+    background: linear-gradient(top, #030303 0%, #2e2e2e 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#030303', endColorstr='#2e2e2e',GradientType=0 ); /* ie */
+}
+
