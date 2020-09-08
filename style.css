@@ -29,6 +29,20 @@ img.rounded-circle{
 }
 
 /*header*/
+.nav-info{
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid #66fcf1;
+}
+.nav-info .top-nav a{
+    color: #fff;
+}
+.nav-info .top-nav a:hover{
+    color: #66fcf1;
+}
+
 .navbar{
     background-color: #0b0c10;
     color: #66fcf1 !important;
@@ -44,13 +58,21 @@ img.rounded-circle{
     color: #0b0c10 !important;
 }
 
+
 /*hero section*/
 .hero{
-    background-color: #1f2833;
+    background-image: url(img/m-shutterbug.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
 }
 
 .hero-post{
     position: relative;
+}
+.her img{
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .hero-post-badges{
@@ -174,35 +196,35 @@ img.rounded-circle{
 }
 
 /*detail page*/
-.content{
+.detail{
     background-color: #0b0c10;
+}
+.content{
+    background-color: #1f2833;
     color: #c5c6c7;
 }
 
 /*contact page*/
-/* background image  */
 #fancy-form{
     background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.6)),url(img/contact.jpg);
     background-size: cover;
     background-position: center;
-    height: 100vh;
-   }
+}
    
-   /* container utility */
-   #fancy-form .container{
-     width: 80%;
-     margin: auto;
-     overflow: hidden;
-   }
+#fancy-form .container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
    
    /* main div */
-   .form-sections{
-     margin-top: 2rem;
-     margin-bottom: 5rem;
-     display: grid;
-     grid-gap: 5rem;
-     grid-template-columns: repeat(2, 1fr);
-   }
+.form-sections{
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+    display: grid;
+    grid-gap: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+}
    
    /* Form-left styling */
    .Form-left h1{
@@ -263,6 +285,7 @@ img.rounded-circle{
      padding: 0;
      margin: 0;
      color: rgb(228, 218, 218);
+     font-size: 1rem;
    }
    .Form-right form input{
      padding:0.6rem;
@@ -336,4 +359,29 @@ img.rounded-circle{
     text-decoration: none;
     color: rgb(187, 182, 182);
 }
+}
+
+.new{
+    background-image: url(img/post.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.new .container{
+    background-color: rgba(31, 40, 51, 0.7);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+.new .container .formulaire{
+    display: block;
+    text-align: center;
+}
+.new .container form{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+.new .container form .form-group label{
+    color: #c5c6c7;
 }
