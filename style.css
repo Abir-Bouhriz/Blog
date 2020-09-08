@@ -61,7 +61,7 @@ img.rounded-circle{
 
 /*hero section*/
 .hero{
-    background-image: url(img/m-shutterbug.jpg);
+    background-image: url(img/dev-asangbam-NVisipnbBeQ-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
@@ -338,7 +338,7 @@ img.rounded-circle{
    
 /* background image  */
 #fancy-form{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(../imgs/particles.jpg);
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.9)),url(img/contact.jpg);
     background-size: cover;
     background-position: center;
     height: auto;
@@ -362,7 +362,7 @@ img.rounded-circle{
 }
 
 .new{
-    background-image: url(img/fidel-fernando-fRqdSPrRosU-unsplash.jpg);
+    background-image: url(img/newPost.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }/*
