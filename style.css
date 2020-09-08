@@ -362,16 +362,16 @@ img.rounded-circle{
 }
 
 .new{
-    background-image: url(img/post.jpg);
+    background-image: url(img/fidel-fernando-fRqdSPrRosU-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-}
+}/*
 .new .container{
     background-color: rgba(31, 40, 51, 0.7);
     max-width: 800px;
     margin: 0 auto;
     padding: 0 1rem;
-}
+}*/
 .new .container .formulaire{
     display: block;
     text-align: center;
@@ -385,3 +385,110 @@ img.rounded-circle{
 .new .container form .form-group label{
     color: #c5c6c7;
 }
+
+/*log in form*/
+.login-form{
+    background-image: url(img/login.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100vh
+}
+
+.form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    width: 100%;
+  }
+
+.container{
+    height: 100%;
+    align-content: center;
+    width: 100%;
+    }
+    
+    .card{
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: auto;
+    background-color: rgba(11, 12, 16, 0.7) !important;
+    }
+    
+    .social_icon span{
+    font-size: 60px;
+    margin-left: 10px;
+    color: #66fcf1;
+    }
+    
+    .social_icon span:hover{
+    color: white;
+    cursor: pointer;
+    }
+    
+    .card-header h3{
+    color: #66fcf1;
+    }
+    
+    .social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+    }
+    
+    .input-group-prepend span{
+    width: 50px;
+    background-color: #66fcf1;
+    color: black;
+    border:0 !important;
+    }
+    
+    input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+    
+    }
+    
+    .remember{
+    color: white;
+    }
+    
+    .remember input
+    {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+    }
+    
+    .form-group .login_btn{
+    color: black !important;
+    background-color: #66fcf1 !important;
+    width: 100px;
+    }
+    
+    .form-group .login_btn:hover{
+    color: black !important;
+    background-color: white !important;
+    }
+    
+    .links{
+    color: white;
+    }
+    
+    .links a{
+    margin-left: 4px;
+    }
+
+    button.cancel{
+        position: absolute;
+        font-size: 150px;
+        cursor: pointer;
+        color: #66fcf1 !important;
+        top: -100px;
+        right: 300px;
+      }
+      button.cancel:hover{
+        color: #fff !important;
+      }
