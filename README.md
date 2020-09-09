@@ -1,5 +1,5 @@
 # Blog
-https://abir-bouhriz.github.io/blog/index.html
+
 ## Description:
 This is a responsive blog website
 ## Tools & languages:
