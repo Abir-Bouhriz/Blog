@@ -1,7 +1,7 @@
 # Blog
 
 ## Description:
-This is a responsive blog website
+This is a responsive personal blog website
 ## Tools & languages:
 * HTML
 * CSS
